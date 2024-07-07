@@ -1,0 +1,448 @@
+/* fonts */
+/* font-family: "Merriweather", serif; */
+/* font-family: "Inter", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1320px;
+    /* height: 2400px; */
+    /* background-color: whitesmoke; */
+    margin: 50px 300px 0px 300px;
+}
+
+main {
+    width: 1320px;
+    /* height: 687px; */
+    /* background-color: whitesmoke; */
+    margin: 50px 300px 0px 300px;
+}
+
+/* Banner-box */
+.banner-box {
+    /* background-color: aqua; */
+    height: 600px;
+    background-image: url("../images/Banner\ Image.png");
+    background-size: cover;
+    border-radius: 16px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+.banner-text {
+    /* background-color: aqua; */
+    text-align: center;
+    width: 632px;
+    height: 246px;
+    padding-top: 100px;
+}
+
+.banner-text h5 {
+    font-family: "Merriweather", serif;
+    font-weight: 255;
+    color: #FFFFFF;
+    font-size: larger;
+    font-style: normal;
+}
+
+.banner-text h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-style: normal
+}
+
+/* discount */
+.discount-65 {
+    width: 802px;
+    height: 806px;
+    /* background-color: antiquewhite; */
+    margin-left: 259px;
+    margin-top: 120px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discount-65 .title h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FF0000;
+}
+
+.discount-65 .subtitle {
+    text-align: center;
+}
+
+.discount-65 .subtitle h6 {
+    color: #FF0000;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+.discount-65 .subtitle h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/* midnight-party */
+.midnight-party {
+    height: 600px;
+    background-image: url("../images/Vectorrr.png");
+    margin-top: 120px;
+    font-family: "Merriweather", serif;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 16px;
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+
+}
+
+.midnight-party .content {
+    padding-left: 40px;
+    margin-left: 30px;
+
+}
+
+.midnight-party .content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    width: 600px;
+    height: 150px;
+}
+
+.midnight-party .content p {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.midnight-party .icon {
+    padding-right: 40px;
+}
+
+.midnight-party .content h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+/* join */
+.join {
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+.join .content {
+    width: 550px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.join .content span {
+    color: #FF0000;
+}
+
+.join .content h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.join .content button {
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 30px;
+    padding: 8px 32px;
+}
+
+/* best offer */
+.best-offer {
+    height: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+    /* background-color: rebeccapurple; */
+}
+
+.offer {
+    width: 33.33%;
+}
+
+.offer h5 {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+.offer h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.offer p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.img-man {
+    width: 33.33%;
+
+}
+
+.year {
+    width: 33.33%;
+    margin-top: 5px;
+}
+
+.year h2 {
+    color: #FF0000;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* sale */
+.sale {
+    height: 986px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.sale .title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sale .title h6 {
+    color: rgb(7, 2, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.sale .title h1 {
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.sale .title h1 span {
+    color: #FF0000;
+}
+
+.sale .title p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.solid-color {
+    width: 1297px;
+    height: 200px;
+    border-radius: 16px 0px 16px 16px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 80%;
+}
+
+.giftbox {
+    padding-top: 180px;
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    gap: 200px;
+}
+
+/* items */
+.items {
+    height: 1163px;
+    margin-top: 200px;
+}
+
+.items .text h6 {
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.items .text h3 {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.items .text p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.items .prod{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.items .prod img{
+    width: 400px;
+    height: 400px;
+}
+/* subscribe */
+.subscribe-container{
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-container .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+.subscribe-container .text-container h1{
+color: rgb(7, 2, 17);
+font-family: "Merriweather", serif;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+/* text-align: center; */
+/* text-transform: capitalize; */
+}
+.subscribe-container.text-container p{
+color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscribe-container .gmail-container{
+    display: flex;
+    /* width: 400px; */
+    margin: 50px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: violet;
+}
+
+.subscribe-container .gmail-container input{
+    border: none;
+    height: 40px;
+    /* width: 200px; */
+    padding: 0 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+.subscribe-container .gmail-container button{
+    border: none;
+    height: 40px;
+    background-color: #FF0000;
+    padding: 0 10px;
+    cursor: pointer;
+    color: white;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    height: 700px;
+    /* margin-top: 50px; */
+}
+footer .text{
+    width: 90%;
+    color:white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.foot{
+    font-size: 20px;
+    width: 90%;
+    color: white;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
